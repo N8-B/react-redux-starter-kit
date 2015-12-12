@@ -17,6 +17,11 @@ const config = {
   dir_test   : 'tests',
 
   // ----------------------------------
+  // Favicon
+  // ----------------------------------
+  favicon_path : 'src/favicon.ico',
+
+  // ----------------------------------
   // Server Configuration
   // ----------------------------------
   server_host : 'localhost',

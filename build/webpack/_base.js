@@ -41,6 +41,7 @@ const webpackConfig = {
       hash     : false,
       filename : 'index.html',
       inject   : 'body',
+      favicon: paths.base(config.favicon_path),
       minify   : {
         collapseWhitespace : true
       }
